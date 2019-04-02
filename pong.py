@@ -62,7 +62,7 @@ while True:
     score1 = font.render(str(paddle1_score), True, (255, 255, 255))
     score2 = font.render(str(paddle2_score), True, (255, 255, 255))
 
-    screen.blit(background, (0, 0))  # araştır
+    screen.blit(background, (0, 0)) 
     frame = pygame.draw.rect(screen, (255, 255, 255), Rect((5, 5), (630, 470)), 2)  # dikdörtgen çiz
     middle_line = pygame.draw.aaline(screen, (255, 255, 255), (330, 5), (330, 475))  # ortadaki çizgi
     screen.blit(paddle1, (paddle1_x, paddle1_y))  # ekrana bastır
